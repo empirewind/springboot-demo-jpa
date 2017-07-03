@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+    xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
+<head>
+<title>BONC欢迎您</title>
+</head>
+<body>
+    <div>
+    <form th:action="@{v1/sayHello}" th:method="get">
+        <input type="text" name ="userName"/>
+        <input type="submit" value="提交"/>
+    </form>
+    </div>
+    
+</body>
+</html>
