@@ -35,8 +35,8 @@ public interface UserEntityDao extends  CrudRepository<UserEntity, Long>{
      * 
      * Description: <br>
      * 通过用户名查询 （spring data jpa 创建方法名进行简单查询 ）
-     * @param username
-     * @return 
+     * @param username  
+     * @return List<UserEntity>
      * @see
      */
     List<UserEntity> findByUserName(String username);

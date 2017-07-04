@@ -39,6 +39,9 @@ public class WelcomeController {
     @Qualifier("welcomeService")
     private WelcomeService welcomeService;
     
+    /**
+     * UserService 接口
+     */
     @Autowired
     @Qualifier("userService")
     private UserService userService;
